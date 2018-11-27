@@ -14,9 +14,7 @@ class NewTicketControl extends React.Component {
 
   handleTroubleshootingConfirmation(){
     this.setState({formVisibleOnPage: true});
-
   }
-
 
   render(){
     let currentlyVisibleContent = null;
